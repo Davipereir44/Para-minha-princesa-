@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Para minha Neguinhaa 💙</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+
+body{
+
+min-height:100vh;
+background:linear-gradient(180deg,#87ceeb,#0047ab);
+color:white;
+text-align:center;
+overflow-x:hidden;
+
+}
+
+
+.container{
+padding:25px;
+}
+
+
+
+h1{
+
+font-size:48px;
+margin-top:40px;
+text-shadow:0 0 20px white;
+animation:entrada 2s;
+
+}
+
+
+
+h2{
+margin-bottom:20px;
+}
+
+
+
+p{
+
+font-size:20px;
+line-height:1.7;
+
+}
+
+
+
+.card{
+
+max-width:700px;
+margin:35px auto;
+
+padding:30px;
+
+background:rgba(255,255,255,.18);
+
+border-radius:30px;
+
+backdrop-filter:blur(10px);
+
+box-shadow:0 0 25px #ffffff55;
+
+}
+
+
+
+button{
+
+background:white;
+
+color:#005bea;
+
+border:0;
+
+padding:15px 35px;
+
+border-radius:50px;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+button:hover{
+
+transform:scale(1.1);
+
+}
+
+
+
+/* Carta */
+
+.carta{
+
+display:none;
+
+background:white;
+
+color:#333;
+
+padding:25px;
+
+margin-top:25px;
+
+border-radius:25px;
+
+animation:abrir 1s;
+
+}
+
+
+
+/* Fotos */
+
+.foto{
+
+width:220px;
+
+height:220px;
+
+object-fit:cover;
+
+border-radius:25px;
+
+margin:10px;
+
+}
+
+
+
+/* Emojis caindo */
+
+.emoji{
+
+position:fixed;
+
+top:-30px;
+
+font-size:30px;
+
+animation:cair linear forwards;
+
+}
+
+
+
+@keyframes cair{
+
+to{
+
+transform:translateY(110vh) rotate(360deg);
+
+}
+
+}
+
+
+
+@keyframes entrada{
+
+from{
+
+opacity:0;
+
+transform:scale(.5);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+
+
+@keyframes abrir{
+
+from{
+
+transform:scale(0);
+
+}
+
+to{
+
+transform:scale(1);
+
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+Para minha Neguinhaa 💙
+</h1>
+
+
+<p>
+Um cantinho feito especialmente para você ✨
+</p>
+
+
+
+
+<div class="card">
+
+<h2>🎵 Nossa música</h2>
+
+<button onclick="musica()">
+Escutar nossa música 💙
+</button>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>💌 Carta para você</h2>
+
+<button onclick="abrirCarta()">
+Abrir carta ❤️
+</button>
+
+
+<div class="carta" id="carta">
+
+<p>
+
+Neguinhaa 💙
+
+<br><br>
+
+Nossa história começou em 2022,
+quando a gente se conheceu, brincava juntos
+e começamos a criar nossas primeiras memórias.
+
+<br><br>
+
+Em 2023 a gente se falava pessoalmente,
+continuava brincando e criando uma conexão especial.
+
+<br><br>
+
+Em 2024 tivemos um momento muito especial:
+nossa primeira vez juntos no aniversário do Levi.
+
+<br><br>
+
+Em 2025 começamos a conversar mais sério
+e nossa história ficou ainda mais bonita.
+
+<br><br>
+
+Em 2026 aconteceu nosso primeiro beijinho
+e começou uma nova fase.
+
+<br><br>
+
+Obrigado por fazer parte da minha vida 💙✨
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>⏳ Nosso tempo juntos</h2>
+
+<p id="contador">
+Calculando...
+</p>
+
+  </div>
+  
+<div class="card">
+
+<h2>📖 Nossa linha do tempo</h2>
+
+<p>
+
+🌱 <b>2022</b>
+<br>
+A gente se conheceu, brincava juntos e começou nossa história.
+
+<br><br>
+
+✨ <b>2023</b>
+<br>
+A gente se falava pessoalmente e continuava criando momentos juntos.
+
+<br><br>
+
+🎉 <b>2024</b>
+<br>
+Nossa primeira vez juntos no aniversário do Levi.
+
+<br><br>
+
+💬 <b>2025</b>
+<br>
+Começamos a conversar mais sério e nossa conexão ficou ainda maior.
+
+<br><br>
+
+💙 <b>2026</b>
+<br>
+Nosso primeiro beijinho e o começo de uma nova fase.
+
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h2>⭐ Coisas que a Neguinhaa ama</h2>
+
+<p>
+
+💙 Cor favorita: Azul
+
+<br><br>
+
+🎤 Cantor favorito: Henrique e Juliano
+
+<br><br>
+
+🍕 Comida favorita: Pizza
+
+<br><br>
+
+🎬 Filme favorito: Tinker Bell
+
+<br><br>
+
+📺 Desenho favorito: Looney Tunes
+
+<br><br>
+
+🧛 Série que assiste: Diário de Vampiro
+
+<br><br>
+
+🎂 Aniversário: 09/11/2009
+
+</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>📸 Nossas memórias</h2>
+
+<p>
+Coloque nossas fotos aqui 💙
+</p>
+
+<img class="foto" src="foto1.jpg">
+
+<img class="foto" src="foto2.jpg">
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>🎁 Surpresa</h2>
+
+<button onclick="surpresa()">
+
+Clique aqui 💎
+
+</button>
+
+<p id="surpresa"></p>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<script>
+
+
+function musica(){
+
+window.open(
+"https://youtu.be/r73ANL4ecnE?si=EOlJ7faLYM5cGGfb",
+"_blank"
+);
+
+}
+
+
+
+
+
+function abrirCarta(){
+
+document.getElementById("carta").style.display="block";
+
+}
+
+
+
+
+
+function surpresa(){
+
+document.getElementById("surpresa").innerHTML=
+
+"Neguinhaa, você é uma pessoa muito especial para mim 💙✨";
+
+}
+
+
+
+
+
+
+
+// Contador desde metade de 2022
+
+let inicio = new Date("2022-07-01T00:00:00");
+
+
+
+function atualizarContador(){
+
+
+let agora = new Date();
+
+
+let tempo = agora - inicio;
+
+
+
+let dias = Math.floor(
+tempo/(1000*60*60*24)
+);
+
+
+
+let horas = Math.floor(
+tempo/(1000*60*60)%24
+);
+
+
+
+let minutos = Math.floor(
+tempo/(1000*60)%60
+);
+
+
+
+let segundos = Math.floor(
+tempo/1000%60
+);
+
+
+
+
+document.getElementById("contador").innerHTML =
+
+"💙 Nossa história existe há:<br><br>" +
+
+dias + " dias, " +
+horas + " horas, " +
+minutos + " minutos e " +
+segundos + " segundos ✨";
+
+
+}
+
+
+
+setInterval(atualizarContador,1000);
+
+atualizarContador();
+
+
+
+
+
+
+
+
+// Chuva de emojis azul
+
+let emojis = [
+
+"💙",
+"🦋",
+"✨",
+"⭐",
+"🌊",
+"💎"
+
+];
+
+
+
+setInterval(()=>{
+
+
+let e = document.createElement("div");
+
+
+e.className="emoji";
+
+
+e.innerHTML =
+emojis[Math.floor(Math.random()*emojis.length)];
+
+
+
+e.style.left =
+Math.random()*100+"vw";
+
+
+
+e.style.animationDuration =
+(3 + Math.random()*5)+"s";
+
+
+
+document.body.appendChild(e);
+
+
+
+setTimeout(()=>{
+
+e.remove();
+
+},8000);
+
+
+
+},300);
+
+
+
+</script>
+
+
+</body>
+
+</html>
